@@ -59,4 +59,4 @@ def operar():
 #		return render_template("operar.html",num1=num1,num2=num2,op=op,signo=signo,resultado=resultado)
 
 port=os.environ["PORT"]
-app.run('0.0.0.0',int(port), debug=True)
+app.run('0.0.0.0',int(port))
